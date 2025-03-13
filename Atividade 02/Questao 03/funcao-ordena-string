@@ -1,0 +1,11 @@
+<?php
+
+function ordenarStrings(array $array): array{
+    sort($array);
+    return $array;
+}
+
+$array = array("a", "c", "d", "b");
+$arrayOrdenado = ordenarStrings($array);
+echo "Array ordenado: ";
+var_dump($arrayOrdenado);
